@@ -2,10 +2,10 @@
 
 #Change to home folder for easy directory traversal:
 cd ~
-#Get the user input project name:
+#Get the user input for the project name:
 echo "Name the project:"
 read projectName
-#move to the web_projects directory and make:
+#move to the web_projects directory and make the projectname directory -p (i.e. if not exists):
 cd Documents/web_projects
 mkdir -p $projectName
 #Insert boilerplate:
